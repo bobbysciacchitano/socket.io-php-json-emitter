@@ -1,5 +1,5 @@
 {
-  "name": "JohnnyCrazy/socket.io-emitter-php",
+  "name": "johnnycrazy/socket.io-emitter-php",
   "type": "library",
   "description": "Socket.io Emitter for PHP",
   "keywords": ["socket.io", "emitter", "events"],
