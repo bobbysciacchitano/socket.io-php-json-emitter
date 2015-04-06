@@ -1,0 +1,25 @@
+{
+  "name": "JohnnyCrazy/socket.io-emitter-php",
+  "type": "library",
+  "description": "Socket.io Emitter for PHP",
+  "keywords": ["socket.io", "emitter", "events"],
+  "homepage": "https://github.com/JohnnyCrazy/socket.io-emitter-php",
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "Jonas Dellinger",
+      "email": "johnny@johnnycrazy.de",
+      "homepage": "http://johnnycrazy.de",
+      "role": "Developer"
+    }
+  ],
+  "require": {
+    "php": ">=5.3.0",
+    "ext-msgpack": "~0.5.5"
+  },
+  "autoload": {
+    "psr-4": {
+      "SocketIO\\": "src/"
+    }
+  }
+}
