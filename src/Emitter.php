@@ -113,7 +113,7 @@ class Emitter
         $packet["data"][1] = $data;
         $packet["nsp"] = $this->nsp;
 
-        $this->redis->publish($this->key . "#" . $this->nsp . "#", msgpack_pack([ uniqid() ,$packet, [
+        $this->redis->publish($this->key . "#" . $this->nsp . "#", json_encode([ uniqid() ,$packet, [
             "rooms" => $this->rooms,
             "flags" => $this->flags
         ] ]));
